@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./index.js" type="module"></script>
+    <title>LAZY ASS</title>
+    <script>
+        var submitted = false
+    </script>
+</head>
+<body>
+    
+    <form method="post" target="hiddenConfirm" action="https://docs.google.com/forms/d/e/1FAIpQLSfncUKg7bzVuHdUGnibXnHQQdubdk7fsqZFfkC-I_YIJX1uyw/formResponse" onsubmit="submitted = true">
+        <label for="entry.250965384">Your name</label>
+        <input type="text" name="entry.250965384" placeholder="Jedidiah">
+        <br>
+        <label for="entry.239784388">Your email address</label>
+        <input type="email" name="entry.239784388" placeholder="name@gmail.com">
+        <br>
+        <label for="entry.1850483754">What are you signing up as</label>
+        <select name="entry.1850483754">
+            <option value="Tutor">Tutor</option>
+            <option value="Student">Student</option>
+        </select>
+        <button type="submit">Send</button>
+    </form>
+
+    <iframe id="hiddenConfirm" name="hiddenConfirm" style="display: none;" onload="if(submitted){window.location='thanks.html';}"></iframe>
+</body>
+</html>

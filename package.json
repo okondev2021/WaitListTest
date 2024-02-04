@@ -1,0 +1,17 @@
+{
+  "name": "waitlist-advanced-test",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "ADD USER TO WAITLIST(GOOGLE FORM)\r SETUP AUTOMATIC MAIL TO USE ONSUBMISSION\r PDF STUFF\r GET GOOGLE FORM RESPONSES AS A LIST\r AVOID USER FROM ADDING TWICE BY USING LOCAL STORAGE TO STORE A BOOLEAN VALUE TO CHECK IF THEY ARE ON THE WAITLIST",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/local-auth": "^3.0.1",
+    "@googleapis/forms": "^2.0.5"
+  }
+}
